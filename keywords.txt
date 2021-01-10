@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+ProgressBar
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+setPercentage			KEYWORD2
+setRedLimit				KEYWORD2
+setGreenLimit			KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+NR_OF_STATUS_LEDS		LITERAL1
+RED_LED					LITERAL1
+GREEN_LED				LITERAL1
