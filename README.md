@@ -1,2 +1,42 @@
 # LEDStatusBar
-Electronic project for an 8-LED status/progress bar.
+
+The LED status bar is a simple electronics project for/with Arduino type of micro controllers.
+
+It consists of a piece of hardware that uses 8 LEDs to show a status or progress. 
+
+Imagine you want to show the remaining capacity of a battery or a battery load status.
+You can use the LED status bar to visualize it.
+
+- show the red light when the load level is too low. 
+- use the 6 blue lights to visualize load percentage
+- use the green light to visualize that the battery is just *full enough*.
+
+## How to connect the bar
+To connect the LED bar to you Arduino/MCU, you may want to plug it into your bread board. 
+
+So please rotate the bar in a way that the PINs point downwards. :-)
+
+Looking at the LED bar this way, 
+
+- PIN1: VCC (5V), 
+- PIN2: GND (ground),
+- PIN3: digital input 1
+- PIN4: digital input 2
+- PIN5: digital input 3
+
+If you want to understand exactly what the pins are used for, or if you want to directly control the underlying shift register, you need to know how the LED bar's pins are connected:
+
+- PIN3 is SHCP, 
+- PIN4 STCP and 
+- PIN5 is DS (SER).
+
+## How to use the bar
+without caring about shift registers?
+
+If you don't want to care about shift registers and how to turn on which of the LEDs, there is some code that helps you out.
+
+### ProgressBar library
+You can use the ProgressBar library for a very simple and intuitive way to show status/progress on the LED status bar.
+
+
+
