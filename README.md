@@ -12,7 +12,7 @@ You can use the LED status bar to visualize it.
 - use the green light to visualize that the battery is just *full enough*.
 
 ## How to connect the bar
-To connect the LED bar to you Arduino/MCU, you may want to plug it into your bread board. 
+To connect the LED bar to your Arduino/MCU, you may want to plug it into your bread board. 
 
 So please rotate the bar in a way that the PINs point downwards. :-)
 
@@ -24,10 +24,10 @@ Looking at the LED bar this way,
 - PIN4: digital input 2
 - PIN5: digital input 3
 
-If you want to understand exactly what the pins are used for, or if you want to directly control the underlying shift register, you need to know how the LED bar's pins are connected:
+If you want to understand exactly what the pins are used for, or if you want to directly control the underlying shift register, you need to know how the LED bar's pins are connected to the 74HC595:
 
 - PIN3 is SHCP, 
-- PIN4 STCP and 
+- PIN4 is STCP and 
 - PIN5 is DS (SER).
 
 ## How to use the bar
